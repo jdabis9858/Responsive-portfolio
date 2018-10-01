@@ -7,7 +7,6 @@ header {
     border-style: outset;
     padding-left: 50px;
     background-color: white;
-    
 }
 
 #hd {
@@ -95,7 +94,7 @@ footer {
 
 #box1 {
     margin: 15px 15px 15px 15px;
-   position: relative;
+    position: relative;
    text-align: center;
    float: left;
    background-color: white
@@ -172,8 +171,42 @@ footer {
 }
 
 .txtbar {
-    
     background-color: white
 }
+
+
+@media screen and (max-width: 640px) {
+    header, footer {
+      position: static;
+    }
+    #hd, #box {
+       position: flex;
+       flex-wrap: wrap;
+       justify-content: center; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    header, footer {
+      position: static;
+    }
+    #hd, #box {
+        position: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    header, footer {
+      position: static;
+    }
+    #hd, #box {
+        position: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
+
 
 
