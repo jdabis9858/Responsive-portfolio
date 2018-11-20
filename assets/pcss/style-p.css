@@ -32,6 +32,13 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    
+
+}
+
 #box {
     color: white;
     background-color: white;
