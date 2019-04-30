@@ -1,0 +1,25 @@
+{
+  "name": "Responsive-Portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "portfolio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdabis9858/Responsive-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdabis9858/Responsive-portfolio/issues"
+  },
+  "homepage": "https://github.com/jdabis9858/Responsive-portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
